@@ -20,18 +20,31 @@ While their visualizations focused on yearly averages, our client wants to creat
 
 ### Python translation
 
-- [ ] Translate [FiveThirtyEight's CDC_parser.R script](https://github.com/fivethirtyeight/guns-data/blob/master/CDC_parser.R) into a Python script.
-- [ ] Verify that your output matches their results.
-- [ ] Build new data sets that use data through 2019.
+- [X] Translate [FiveThirtyEight's CDC_parser.R script](https://github.com/fivethirtyeight/guns-data/blob/master/CDC_parser.R) into a Python script.
+- [X] Verify that your output matches their results.
+- [X] Build new data sets that use data through 2019.
 
 ### Client needs (charts and munging done in Python and R)
 
-- [ ] Provide a brief summary of the [FiveThirtyEight article](https://fivethirtyeight.com/features/gun-deaths/).
-    - [ ] Create one plot that provides similar insight to their visualization in the article. It does not have to look like theirs.
-    - [ ] Write a short paragraph summarizing their article.
-- [ ] Address the client's need for emphasis areas of their commercials for different seasons of the year.
-    - [ ] Provide plots that help them know the different potential groups (variables) they could address in different seasons (2-4 visualizations seem necessary).
-    - [ ] Write a short paragraph describing each image.
+- [X] Provide a brief summary of the [FiveThirtyEight article](https://fivethirtyeight.com/features/gun-deaths/).
+    - [X] Create one plot that provides similar insight to their visualization in the article. It does not have to look like theirs.
+    - [X] Write a short paragraph summarizing their article.
+- [X] Address the client's need for emphasis areas of their commercials for different seasons of the year.
+    - [X] Provide plots that help them know the different potential groups (variables) they could address in different seasons (2-4 visualizations seem necessary).
+    - [X] Write a short paragraph describing each image.
 
+#### 538 Summary
+
+This article delves into the gun death epidemic in America, providing an interactive graphic that focuses on how the majority of gun deaths occur.  While most news stories focus around police, terrorist, and mass shootings, the _vast_ majority of gun deaths come from suicide, primarily older white males.  The second largest proportion of deaths come from homicide.
+
+Focusing on the largest portion of gun deaths, I have created a similar waffle plot below.
+
+!["Project 2 Plot 1"](chart2.png)
+
+As discussed in class, there is a clear uptick in deaths in the summer.  This could arise from a multitude of factors, from the hotter weather causing stress, to more free time in the summer.  Looking at another subset of the population, does the summer/hot weather trend persist?
+
+!["Project 2 Plot 2"](chart1.png)
+
+Although the sample set is smaller than most, the data does seem to support this!  Almost all of the per-capita death rates above 7.5 are in the summer/hot weather months.
 
 
